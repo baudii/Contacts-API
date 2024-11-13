@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts-API.API", "Contacts-API\Contacts-API.API.csproj", "{C7CCD9D4-F36B-457D-ABEC-88B98B3AFDBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts-API.Domain", "Contacts-API.Database\Contacts-API.Domain.csproj", "{EBE1F007-DE72-4A04-BF04-C4942F5F4F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts-API.Domain", "Contacts-API.Domain\Contacts-API.Domain.csproj", "{EBE1F007-DE72-4A04-BF04-C4942F5F4F04}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contacts-API.Tests", "Contacts-API.Tests\Contacts-API.Tests.csproj", "{C769FBD6-4E1F-4DEE-A261-1BC74971326D}"
 EndProject

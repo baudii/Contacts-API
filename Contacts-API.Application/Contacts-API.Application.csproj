@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Contacts-API.Database\Contacts-API.Domain.csproj" />
+    <ProjectReference Include="..\Contacts-API.Domain\Contacts-API.Domain.csproj" />
   </ItemGroup>
 
 </Project>
