@@ -1,5 +1,4 @@
 ﻿using ContactsAPI.Application.Features.AllPerson.Commands;
-using ContactsAPI.Application.Features.Contacts.Commands;
 using ContactsAPI.Application.Interfaces;
 using ContactsAPI.Domain.Models;
 using MediatR;

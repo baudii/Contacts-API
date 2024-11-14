@@ -1,5 +1,5 @@
-﻿using ContactsAPI.Application.Features.AllPerson.Commands;
-using ContactsAPI.Application.Features;
+﻿using ContactsAPI.Application.Features;
+using ContactsAPI.Application.Features.AllPerson.Commands;
 using ContactsAPI.Controllers;
 using ContactsAPI.Domain.Models;
 using FakeItEasy;

@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ContactsAPI.Application.Features;
+﻿using ContactsAPI.Application.Features;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ContactsAPI;
 
