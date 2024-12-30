@@ -10,7 +10,7 @@ namespace ContactsAPI.Controllers;
 public class ContactsController : ControllerBase
 {
 	private readonly ISender _sender;
-	private CancellationTokenSource _cts;
+	private readonly CancellationTokenSource _cts;
 
 	public ContactsController(ISender sender)
 	{

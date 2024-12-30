@@ -1,6 +1,8 @@
 ﻿using ContactsAPI.Domain.Models;
 using ContactsAPI.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using FakeItEasy;
+using Microsoft.Extensions.Configuration;
 
 namespace ContactsAPI.Tests;
 
@@ -12,7 +14,7 @@ public static class TestUtils
 			.UseInMemoryDatabase(databaseName: $"TestDatabase{Guid.NewGuid()}")
 			.Options;
 
-		var context = new ContactsDbContext(options);
+		var context = new ContactsDbContext(options, A.Fake<IConfiguration>());
 
 		await context.Database.EnsureCreatedAsync();
 

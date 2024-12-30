@@ -34,13 +34,8 @@ public class CreateContactCommandHandlerTests
 	public async Task Handle_ShouldReturnBadRequest_WhenContactAlreadyExists()
 	{
 		// Arrange
-		var contact = new Contact
-		{
-			TelephoneNumber = "Test",
-			Email = "2000@mm.c",
-			LinkedIn = "Test2",
-			PersonId = 1
-		};
+		var contact = TestUtils.GetStandardContact();
+		contact.Id = 1;
 		var command = new CreateContactCommand(contact.TelephoneNumber, contact.Email, contact.LinkedIn, contact.PersonId);
 		var context = await TestUtils.GetTemporaryDbContextAsync();
 		var personRepository = new PersonRepository(context);
